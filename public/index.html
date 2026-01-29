@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dodonna's Disciples | Star Wars Unlimited Team</title>
+  <meta name="description" content="Dodonna's Disciples - A Star Wars Unlimited competitive team. May the Force be with you.">
+  <meta name="keywords" content="Dodonna's Disciples, Star Wars Unlimited, SWU, trading card game, TCG, competitive team, Star Wars cards">
+  <meta property="og:title" content="Dodonna's Disciples | Star Wars Unlimited Team">
+  <meta property="og:description" content="Dodonna's Disciples - A Star Wars Unlimited competitive team.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="/logo.png">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+    }
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background-color 0.3s ease;
+    }
+    a {
+      display: block;
+    }
+    img {
+      max-width: 80vmin;
+      max-height: 80vmin;
+      width: auto;
+      height: auto;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+    img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <a href="/">
+    <img src="/logo.png" alt="Dodonna's Disciples - Star Wars Unlimited Team">
+  </a>
+  <script>
+    function randomPastel() {
+      const hue = Math.floor(Math.random() * 360);
+      return `hsl(${hue}, 70%, 85%)`;
+    }
+    document.body.style.backgroundColor = randomPastel();
+  </script>
+</body>
+</html>
